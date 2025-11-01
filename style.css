@@ -1,0 +1,56 @@
+
+    .space {
+        letter-spacing: 25px;
+    }
+
+    h1 {
+        line-height: 1;
+    }
+
+    .gradient-text {
+        background: linear-gradient(to right, #A21AF0 45%, #FE0072 48%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    button {
+        background-image: linear-gradient(to top right, #A21AF0, #FE0072);
+    }
+
+    .bg-color {
+        background-image: linear-gradient(to top right, #A21Af0, #FE0072);
+    }
+
+
+    @media screen and (max-width: 480px) {
+        .text {
+            font-size: 60px !important;
+        }
+
+        .s-text {
+            font-size: 20px !important;
+            letter-spacing: 20px;
+        }
+
+        .para {
+            font-size: 15px !important;
+        }
+
+    }
+
+
+    @media screen and (max-width: 768px) {
+        .text {
+            font-size: 80px !important;
+        }
+
+        .s-text {
+            font-size: 40px !important;
+            letter-spacing: 22px;
+        }
+
+        .para {
+            font-size: 20px !important;
+        }
+
+    }
